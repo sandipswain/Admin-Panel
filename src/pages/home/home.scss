@@ -3,10 +3,17 @@
   .homeContainer {
     flex: 6;
     font-size: 2rem;
-    .widgets {
+    .widgets,
+    .charts {
       display: flex;
       font-size: 4rem;
       padding: 2rem;
+      gap: 2rem;
+    }
+
+    .charts {
+      padding: 0.5rem 2rem;
+      font-size: 2.5rem;
     }
   }
 }
