@@ -1,6 +1,6 @@
 import "./sidebar.scss";
 import DashboardIcon from "@mui/icons-material/Dashboard";
-import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
+import GroupsOutlinedIcon from "@mui/icons-material/GroupsOutlined";
 import Inventory2OutlinedIcon from "@mui/icons-material/Inventory2Outlined";
 import BentoOutlinedIcon from "@mui/icons-material/BentoOutlined";
 import DeliveryDiningOutlinedIcon from "@mui/icons-material/DeliveryDiningOutlined";
@@ -26,7 +26,7 @@ const Sidebar = () => {
           </li>
           <p className="title">LISTS</p>
           <li>
-            <PersonOutlineOutlinedIcon className="icon" />
+            <GroupsOutlinedIcon className="icon" />
             <span>Users</span>
           </li>
           <li>
