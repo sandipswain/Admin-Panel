@@ -1,0 +1,74 @@
+.datatable {
+  height: 60rem;
+  padding: 2rem;
+
+  .cellWithImg {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+
+    .cellImg {
+      width: 3.2rem;
+      height: 3.2rem;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 2rem;
+    }
+  }
+  .cellWithStatus {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    &.active {
+      background-color: rgba(0, 128, 0, 0.05);
+      color: green;
+    }
+    &.passive {
+      background-color: rgba(255, 217, 0, 0.05);
+      color: goldenrod;
+    }
+    &.pending {
+      background-color: rgba(255, 0, 0, 0.05);
+      color: crimson;
+    }
+  }
+
+  .cellWithAction {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+    .viewButton {
+      padding: 2px 5px;
+      border-radius: 5px;
+      color: darkblue;
+      border: 2px dotted rgba(0, 0, 139, 0.315);
+      cursor: pointer;
+    }
+    .deleteButton {
+      padding: 2px 5px;
+      border-radius: 5px;
+      color: crimson;
+      border: 2px dotted rgba(220, 20, 30, 0.6);
+      cursor: pointer;
+    }
+  }
+}
+
+.MuiDataGrid-cellContent,
+.MuiTablePagination-displayedRows {
+  font-size: 1.5rem !important;
+}
+
+.MuiDataGrid-columnHeaderTitleContainer {
+  font-size: 4rem;
+}
+
+.MuiDataGrid-iconSeparator {
+  font-size: 2.5rem !important;
+}
+
+.MuiDataGrid-footerContainer {
+  font-size: 2.5rem !important;
+}
