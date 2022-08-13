@@ -1,0 +1,76 @@
+.new {
+  width: 100%;
+  display: flex;
+
+  .newContainer {
+    flex: 6;
+
+    .top,
+    .bottom {
+      -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+      box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+      padding: 1rem;
+      margin: 2rem;
+      display: flex;
+
+      .left {
+        flex: 1;
+        text-align: center;
+        img {
+          width: 10rem;
+          height: 10rem;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+      }
+      .right {
+        flex: 2;
+        form {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 2rem;
+          justify-content: space-evenly;
+          .formInput {
+            width: 40%;
+
+            label {
+              display: flex;
+              align-items: center;
+              gap: 1rem;
+            }
+            input {
+              width: 100%;
+              padding: 5px;
+              border: none;
+              border-bottom: 1px solid #000;
+            }
+          }
+          input,
+          label,
+          button {
+            font-size: 1.5rem;
+            font-weight: bold;
+          }
+          .fileIcon {
+            font-size: 2rem;
+            cursor: pointer;
+          }
+          button {
+            width: 15rem;
+            padding: 1rem;
+            border: none;
+            background-color: teal;
+            color: white;
+            cursor: pointer;
+            margin-top: 1rem;
+          }
+        }
+      }
+    }
+    .top h1 {
+      font-size: 2rem;
+      font-weight: bold;
+      color: lightgray;
+    }
+  }
+}
