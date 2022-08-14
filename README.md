@@ -13,7 +13,7 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Deployed at [[admin-dashboard-done.netlify.app](admin-dashboard-done.netlify.app)](https://admin-dashboard-done.netlify.app/)
+### Deployed at [admin-dashboard-done.netlify.app](https://admin-dashboard-done.netlify.app/)
 
 ### Resources Used
 
